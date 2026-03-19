@@ -1,2 +1,2 @@
-# RiverNeneMonitor
-Monitoring invertebrates on the River Nene
+# River Nene Monitor
+Private app for CADSAC freshwater monitoring project
