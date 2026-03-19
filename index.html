@@ -12,16 +12,16 @@
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--river:#1a4a5c;--river-mid:#2a6f8a;--river-light:#4a9ab5;--river-pale:#d4eaf2;--bank:#2d4a1e;--cream:#f8f5f0;--text:#1a2a1a;--muted:#5a6a5a;--accent:#c8a84b;--danger:#c0392b;--success:#27ae60;--warn:#e67e22;--card:#fff;--border:#dde8dd;--font-d:'Playfair Display',serif;--font-b:'Source Sans 3',sans-serif}
 body{font-family:var(--font-b);background:var(--cream);color:var(--text);min-height:100vh;font-size:15px}
-nav{background:var(--river);color:#fff;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.3)}
+nav{background:var(--river);color:#fff;position:sticky;top:0;z-index:500;box-shadow:0 2px 12px rgba(0,0,0,.3)}
 .nav-inner{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;max-width:1200px;margin:0 auto;padding:0 12px}
 .nav-logo{font-family:var(--font-d);font-size:1rem;font-weight:700;color:#fff;padding:14px 16px 14px 0;border-right:1px solid rgba(255,255,255,.15);margin-right:8px;white-space:nowrap}
 .nav-logo span{color:var(--accent)}
-.nav-tabs{display:flex;flex:1 1 auto;min-width:0;overflow-x:auto;scrollbar-width:none;align-items:stretch}.nav-tabs::-webkit-scrollbar{display:none}
+.nav-tabs{display:flex;flex:1 1 auto;min-width:0;overflow:visible;align-items:stretch}
 .nav-tab,.nav-admin-toggle{background:none;border:none;color:rgba(255,255,255,.65);font-family:var(--font-b);font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:14px 9px;cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap}
 .nav-tab:hover,.nav-admin-toggle:hover{color:#fff;background:rgba(255,255,255,.05)}
 .nav-tab.active,.nav-admin-toggle.active{color:#fff;border-bottom-color:var(--accent)}
 .nav-admin{position:relative;display:flex;align-items:stretch}
-.nav-admin-menu{display:none;position:absolute;top:100%;right:0;min-width:220px;background:#fff;border:1px solid var(--border);border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:8px;z-index:300}
+.nav-admin-menu{display:none;position:absolute;top:100%;right:0;min-width:220px;background:#fff;border:1px solid var(--border);border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:8px;z-index:1000}
 .nav-admin.open .nav-admin-menu{display:block}
 .nav-admin-item{display:block;width:100%;text-align:left;background:none;border:none;border-radius:8px;padding:10px 12px;font-family:var(--font-b);font-size:.84rem;color:var(--text);cursor:pointer}
 .nav-admin-item:hover{background:var(--river-pale);color:var(--river)}
