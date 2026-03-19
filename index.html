@@ -110,13 +110,14 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, se
 import { getFirestore, collection, addDoc, getDocs, doc, getDoc, setDoc, deleteDoc, serverTimestamp, query, orderBy } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js';
 
 const firebaseConfig = {
-  apiKey: 'REPLACE_ME',
-  authDomain: 'REPLACE_ME',
-  projectId: 'REPLACE_ME',
-  storageBucket: 'REPLACE_ME',
-  messagingSenderId: 'REPLACE_ME',
-  appId: 'REPLACE_ME'
+  apiKey: "AIzaSyBkblicQ4wy1igpf_etP_3x2t_W9I446jg",
+  authDomain: "cadsac-river-nene-monitor.firebaseapp.com",
+  projectId: "cadsac-river-nene-monitor",
+  storageBucket: "cadsac-river-nene-monitor.firebasestorage.app",
+  messagingSenderId: "413028777549",
+  appId: "1:413028777549:web:088d7c126790e66ae86604"
 };
+
 const AI_ENDPOINT = '/api/identify';
 
 const app = initializeApp(firebaseConfig);
